@@ -1,0 +1,47 @@
+.expert-card {
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 1.2rem 1rem 1.5rem 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+.expert-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,66,0.08);
+}
+.expert-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.7rem;
+  border: 2px solid #eee;
+}
+.expert-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.2rem 0 0.5rem 0;
+  color: rgb(0,0,66);
+}
+.expert-info {
+  font-size: 0.97rem;
+  color: #222;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.add-btn {
+  background: #be123c;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.add-btn:hover {
+  background: #9f1239;
+}

@@ -1,0 +1,35 @@
+.banner {
+  background: orange;
+  color: #fff;
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+  border-radius: 0;
+  margin-bottom: 2rem;
+}
+.banner h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.banner .budget {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+.app-container {
+  min-height: 100vh;
+  background: #fff;
+}
+.main-layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+.experts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  flex: 1;
+}
